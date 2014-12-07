@@ -32,7 +32,7 @@ plot2 <- function(){
     # Files will be stored in the current working directory
     png(filename = "plot2.png",
         width = 480, height = 480, units = "px", pointsize = 12,
-        bg = "white", res = NA, restoreConsole = TRUE,
+        bg = "transparent", res = NA, restoreConsole = TRUE,
         type = "windows")
     plot(lsAstrDateTimeConv,
          lsAdoGlobActPow,
